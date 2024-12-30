@@ -1,0 +1,125 @@
+/* .montserrat-<uniquifier> {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: italic;
+} */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    /* color: #111; */
+    background-color: #fafafa;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 367px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/* .section {
+    padding-bottom: 60px;
+} */
+
+/* .header-container {
+    display: flex;
+    align-items: center;
+} */
+
+/* ======header====== */
+
+.header-page {
+    width: 335px;
+    margin: 20px 20px 14px 20px;
+
+}
+
+
+.logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.logo-part {
+    font-style: italic;
+}
+
+/* ======hero====== */
+
+.hero {
+    width: 375px;
+    /* height: 620px; */
+    border-radius: 30px;
+    background-color: #1e1823;
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.4) 0%,
+            rgba(17, 17, 17, 0.4) 100%),
+        url(../images/chocolate-hero-mobile@1x.jpg);
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(180deg,
+                rgba(17, 17, 17, 0.4) 0%,
+                rgba(17, 17, 17, 0.4) 100%),
+            url(../images/chocolate-hero-mobile@2x.jpg);
+    }
+}
+
+.hero-title {
+    padding-top: 395px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+/* ======benefits====== */
+
+.benefits {
+    background-color: #1e1823;
+}
+
+.benefits-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.benefits-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
